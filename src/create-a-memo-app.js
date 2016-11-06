@@ -4,8 +4,8 @@ import {render} from 'react-dom';
 import EditMemoComponent from "./edit/EditMemoComponent.js";
 import ViewMemoPdfComponent from "./view/ViewMemoPdfComponent.js";
 
-import defaultModel from './DefaultModel.test.js';
-//import defaultModel from './DefaultModel.prod.js';
+//import defaultModel from './DefaultModel.test.js';
+import defaultModel from './DefaultModel.prod.js';
 
 class CreateAMemoApp extends Component {
 

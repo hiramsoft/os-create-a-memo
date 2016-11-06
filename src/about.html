@@ -1,0 +1,130 @@
+<html>
+<head>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            font-size: 1em;
+        }
+        .wrapper{
+            margin: 0 auto;
+            width: 900px;
+        }
+        .copyright{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <p>
+            Return to <a href="index.html">One-Step Create-A-Memo</a>.
+        </p>
+        <h1>
+            What is One-Step Create-A-Memo?
+        </h1>
+        <p>
+            With <a href="https://www.hiramsoftware.com/os-create-a-memo/">One-Step Create-A-Memo</a> you may create a print-ready PDF using the standard memo theme and template.
+        </p>
+        <p>
+            Fill in the desired fields ("Recipient", "Subject", etc.) and this web app will generate the PDF right in your browser.
+        </p>
+
+        <h1>
+            What happens with my data?
+        </h1>
+        <p>
+            No data is sent from your browser to any server.  Instead, the PDF is created using your browser.
+            The only history of the PDF is what your browser saves.
+        </p>
+        <p>
+            This site offers 100% privacy for creating PDFs, in contrast to other popular memo creators handle your
+            information on servers.
+        </p>
+
+        <h1>
+            What technologies did you use to build it?
+        </h1>
+        <p>
+            I used this project to try out
+            <a href="https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783">webpack 2</a>
+            and
+            <a href="https://yarnpkg.com">yarn</a>.  Yarn "just worked."
+        </p>
+        <p>
+            There also is <a href="https://facebook.github.io/react/">ReactJS</a> to do the view model and event handling (though no Redux),
+            and <a href="https://github.com/MrRio/jsPDF">jsPDF</a> to generate the PDF in the browser.
+        </p>
+        <p>
+            I have no affiliation with any of the technologies and instead am just a happy user.
+        </p>
+
+        <h1>
+            Where did the idea of One-Step Create-A-Memo come from?
+        </h1>
+        <p>
+            This project is a reaction to a front-page Hacker News post
+            <a href="https://news.ycombinator.com/item?id=12843466">"Show HN: My first web app – PDF memo creator"</a>.
+        </p>
+        <p>
+            Typically "Show HN" projects are intended to celebrate a project that post authors have built (i.e. wrote some of the code).
+            That project, instead, was intended to promote the author's marketing business and the author did not
+            build the project.  The author outsourced the code to a group also looking to market their skills,
+            and the "my" in "My first web app" refers to the authorship of the idea instead of the code.
+            A better pronoun would have been "our" to reflect the team effort.  In the A/B test, "Our" probably lost out to "My."
+            The wrong pronoun may not have been malicious, or may just be a difference in taste,
+            but the effect was inconsistent with my interpretation of the "Show HN" spirit.
+        </p>
+        <p>
+            That post is not the first in the endless september of marketers infiltrating HN, and it won't be the last.
+        </p>
+        <p>
+            What affected me more, however, is that the team's web app submitted the forms to the server with the promise "all data is deleted."
+            I've known other marketers who make that promise but then use the submitted info for lead generation.
+            I don't know the author or the vendor who built the MVP, but why was any server needed?
+            It's possible to generate the PDF 100% client-side.  This project shows how.
+        </p>
+        <p>
+            Instead of 48 hours to turn around an MVP, I had 4 hours.  Why 4 hours?  Because this is a side project from
+            someone with a family, a job, and other priorities.  I'm happy with what I accomplished in the short time,
+            and I don't know what another 44 hours would have gotten me.
+        </p>
+
+        <h1>
+            How do I add styling or links to the memo body?
+        </h1>
+        <p>
+            That isn't yet possible.  If there is sufficient interest, I'll gladly wire up that feature.
+            Doing so didn't fit within the 4-hour timebox I gave myself for this project.
+        </p>
+
+        <h1>
+            What languages are supported?
+        </h1>
+        <p>
+            English, basically.  I hard-coded the page-size to US letter, and the fields have english hard-coded labels.
+        </p>
+        <p>
+            Because of a limitation in browsers, only latin-based languages are supported for user-provided values.
+            This prevents you from using right-to-left characters (e.g. Arabic) or Chinese. Sorry!
+        </p>
+        <p>
+            Fixing this didn't fit within the 4-hour timebox.
+        </p>
+        <h1>
+            Where is the source code?
+        </h1>
+        <p>
+            The source code is made available on GitHub under the GPL license.
+        </p>
+
+        <footer>
+            <p class="copyright">
+                Copyright 2016 <a href="https://www.hiramsoftware.com">Hiram Software LLC</a>
+                |
+                <a href="index.html">Back to the app</a>
+            </p>
+        </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family: "Arial", sans-serif;
+                font-size: 1em;
+            }
+
+            #create-a-memo-app{
+                width: 900px;
+                margin: 0 auto;
+                font-family: "Arial", sans-serif;
+            }
+
+            input, textarea{
+                font-size: 1em;
+            }
+
+            .h1-memo {
+                font-size: 5em;
+                font-family: "Arial Black", sans-serif;
+            }
+
+            .header-line{
+                font-size: 1.25em;
+                line-height: 1.5em;
+            }
+
+            .header-label{
+                display: inline-block;
+                width: 100px;
+                font-weight: bold;
+            }
+
+            .header-value input{
+                border: 0;
+                outline: 0;
+                font-family: "Arial", sans-serif;
+            }
+
+            .body-content-input{
+                font-family: "Arial", sans-serif;
+                border: 1px solid #ccc;
+                width: 90%;
+                min-height: 500px;
+            }
+
+            .pdf-frame{
+                border: 1px solid #ccc;
+                width: 90%;
+                min-height: 500px;
+                height: 80%;
+            }
+
+            .footer-line-input{
+                padding-top:2em;
+                padding-bottom:2em;
+                width: 100%;
+                text-align: center;
+                border: 0;
+                outline: 0;
+            }
+
+            .create-pdf-line{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .create-pdf-button{
+                background: #A1D490;
+                background-image: -webkit-linear-gradient(top, #A1D490, #77996B);
+                background-image: -moz-linear-gradient(top, #A1D490, #77996B);
+                background-image: -ms-linear-gradient(top, #A1D490, #77996B);
+                background-image: -o-linear-gradient(top, #A1D490, #77996B);
+                background-image: linear-gradient(to bottom, #A1D490, #77996B);
+                cursor: pointer;
+                -webkit-border-radius: 28;
+                -moz-border-radius: 28;
+                border-radius: 28px;
+                font-family: Arial;
+                color: #ffffff;
+                font-size: 20px;
+                padding: 10px 20px 10px 20px;
+                text-decoration: none;
+            }
+
+            .create-pdf-button:hover {
+                background: #A1D490;
+                background-image: -webkit-linear-gradient(top, #A1D490, #77996B);
+                background-image: -moz-linear-gradient(top, #A1D490, #77996B);
+                background-image: -ms-linear-gradient(top, #A1D490, #77996B);
+                background-image: -o-linear-gradient(top, #A1D490, #77996B);
+                background-image: linear-gradient(to bottom, #A1D490, #77996B);
+                text-decoration: none;
+            }
+
+            .download-pdf-button{
+
+            }
+
+            .after-app-disclaimer{
+                margin: 0 auto;
+                font-size: .75em;
+                text-align: center;
+                width: 900px;
+            }
+
+            .copyright{
+                color: gray;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div id="create-a-memo-app"></div>
+
+
+        <script src="app.bundle.js"></script>
+
+        <footer class="after-app-disclaimer">
+            <p>
+                This project runs 100% in your modern browser using <a href="https://github.com/MrRio/jsPDF">jsPDF</a>.
+                Nothing you type into the form above is sent from your browser to any server; you have complete privacy.
+            </p>
+            <p>
+            The PDF is generated locally, and is only stored in your browser's history.
+            </p>
+
+            <p class="copyright">
+                Copyright 2016 <a href="https://www.hiramsoftware.com">Hiram Software LLC</a>
+                |
+                <a href="about.html">About this project</a>
+            </p>
+        </footer>
+    </body>
+</html>

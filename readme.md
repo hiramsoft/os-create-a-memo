@@ -1,6 +1,10 @@
 One-Step Create-A-Memo
 ======================
 
+This project is a reaction to front page Hacker News Story [Show HN: My first web app - PDF memo creator](https://news.ycombinator.com/item?id=12843466).
+
+Different than that project, this one is open source and runs 100% in your modern browser for privacy.
+
 See the about.html for a background and motivation behind this project.
 
 Contributing

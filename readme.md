@@ -15,11 +15,11 @@ This project uses webpack 2.  Please ensure you have it installed.
 
 To run a dev server with hot-reloading (alias for webpack-dev-server)
 
->  npm run dev
+>  yarn run dev
 
 To build the dist folder
 
->  npm run dist
+>  yarn run dist
 
 
 Code Quality
